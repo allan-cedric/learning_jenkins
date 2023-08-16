@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                pwsh 'python --version'
+                powershell 'python --version'
             }
         }
     }
